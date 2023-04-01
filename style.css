@@ -1,0 +1,161 @@
+
+
+   
+
+.h{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color:#fbefcc;
+    
+}
+.h ul{
+    display: flex;
+    margin: 30px;
+    list-style: none;
+    text-decoration: none;
+    background-color: #fbefcc;
+}
+.h ul li{
+    margin: 15px;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+.h ul li a{
+    background-color:  #fbefcc;
+    color: rgb(160, 55, 55);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.h ul li a:hover{
+    text-decoration: underline;
+    color: rgb(243, 228, 16);
+    box-shadow:4px 6px 7px black;
+}
+h1{
+    color: rgb(0, 252, 55);
+    font-family: sans-serif;
+    text-align: center;
+
+}
+h1:hover{
+    color: red;
+}
+
+h3{
+     text-decoration: underline;
+    text-shadow: 2px 2px 2px;
+    color: rgb(100, 91, 4);
+    
+
+    
+}
+
+#w{
+    font-family: 'Rampart One', cursive;
+    margin-right: 500px;
+    font-size: xx-large;
+    font-weight: bolder;
+    color:rgb(197, 24, 24);
+
+     background-color:  #fbefcc;
+}
+
+button{
+    background-color: rgb(8, 226, 55);
+}
+
+#foods{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+.c {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+/* .d:hover{
+    box-shadow: 0 0 20px rgb(0, 0, 0) ; */
+/* } */
+ .c img{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 300px;
+    
+    
+
+}
+.d{
+    
+    border: 1px solid rgb(2, 2, 2);
+    height: 600px;
+    width: 350px;
+    margin: 10px;
+    background-color: #f9ccac;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.d button{
+    color: rgb(22, 22, 179);
+    background: rgb(250, 251, 253);
+    height: 30px;
+    text-decoration: none;
+    width: 100px;
+}
+.d button:hover{
+
+     background: rgb(15, 15, 15);
+    
+}
+.d a:hover{
+    color:white;
+
+}
+.d p{
+    font-family: 'Lobster', cursive;
+}
+.d a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+#home{
+    margin-left: 250px;
+    height: 400px;
+    width: 800px;
+    z-index: -1;
+}
+#review{
+    margin-left: 200px;
+    display: flex;
+    z-index: -1;
+    padding: 20px;
+}
+.card{
+    padding: 20px;
+}
+.i{
+    padding: 10px;
+    z-index: -1;
+}
+.img:hover{
+    border: 6px outset rgba(7, 11, 233, 0.274) ;
+    border-radius: 10px 10px 50% 50%  ;
+    
+}
